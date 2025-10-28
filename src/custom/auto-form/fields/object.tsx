@@ -1,9 +1,9 @@
-import React from 'react';
-import { useForm, useFormContext } from 'react-hook-form';
-import * as z from 'zod';
 import { FormField } from '@repo/ayasofyazilim-ui/ui/components/form';
 import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
 import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import React, { JSX } from 'react';
+import { Control, useForm, useFormContext } from 'react-hook-form';
+import * as z from 'zod';
 import { DEFAULT_ZOD_HANDLERS, INPUT_COMPONENTS } from '../config';
 import resolveDependencies from '../dependencies';
 import { Dependency, FieldConfig, FieldConfigItem } from '../types';
@@ -204,7 +204,7 @@ function FormObject<SchemaType extends z.ZodObject<any, any>>({
   return (
     <FormField
       // disabled={isDisabled}
-      control={form.control}
+      control={form.control as Control}
       name={key}
       key={key}
       render={({ field }): React.ReactElement => {

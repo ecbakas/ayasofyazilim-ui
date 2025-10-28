@@ -1,6 +1,6 @@
 'use client';
 
-import React, { ReactNode } from 'react';
+import React, { JSX, ReactNode } from 'react';
 import { DefaultValues, useForm } from 'react-hook-form';
 import { z } from 'zod';
 

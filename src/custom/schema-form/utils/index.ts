@@ -34,10 +34,8 @@ export const isPhoneValid = (phoneNumber: string): boolean => {
 export const splitPhone = (phoneNumber: string) => {
   const phoneUtil = PhoneNumberUtil.getInstance(); // Get instance of phone number utility
   const parsedNumber = phoneUtil.parseAndKeepRawInput(phoneNumber); // Parse the phone number
-  const formattedNumber = phoneUtil
-    .formatOutOfCountryCallingNumber(parsedNumber)
-    .split('+')[1]; // Format the number and split to get the relevant part
-  const ituCountryCode = formattedNumber.split(' ')[0]; // Extract the ITU country code
+  const formattedNumber = phoneUtil.formatOutOfCountryCallingNumber(parsedNumber).split('+')[1]!; // Format the number and split to get the relevant part
+  const ituCountryCode = formattedNumber.split(' ')[0]!; // Extract the ITU country code
   const phoneNumberWithoutCountryCode = formattedNumber.substring(
     ituCountryCode.length + 1
   );
@@ -50,7 +48,7 @@ export const splitPhone = (phoneNumber: string) => {
     ituCountryCode,
     areaCode,
     localNumber: phoneNumberWithoutCountryCode
-      .substring(areaCode.length + 1)
+      .substring(areaCode!.length + 1)
       .replaceAll(' ', '')
       .replaceAll('-', ''), // Clean local number
   };

@@ -1,4 +1,4 @@
-import { CaretSortIcon } from '@radix-ui/react-icons';
+import { ChevronsUpDown } from 'lucide-react';
 import { CheckIcon } from 'lucide-react';
 import { Dispatch, SetStateAction, useState } from 'react';
 import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
@@ -100,7 +100,7 @@ export function CustomCombobox<T>({ ...props }: CustomComboboxProps<T>) {
             )}
           >
             {fieldValue || emptyValue || 'Please select'}
-            <CaretSortIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+            <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
         </FormControl>
       </PopoverTrigger>
@@ -124,7 +124,7 @@ export function CustomCombobox<T>({ ...props }: CustomComboboxProps<T>) {
           )}
         >
           {fieldValue || emptyValue || 'Please select'}
-          <CaretSortIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </DrawerTrigger>
       <DrawerContent>

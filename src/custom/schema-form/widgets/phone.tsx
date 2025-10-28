@@ -4,9 +4,9 @@ import { WidgetProps } from '@rjsf/utils';
 import { PhoneInput as RIP } from 'react-international-phone';
 import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
 import 'react-international-phone/style.css';
-import { PhoneInput } from '../../../../../ui2/src/custom/phone-input';
 import { FormContext } from '../types';
 import { useMemo } from 'react';
+import { PhoneInput } from '../../phone-input';
 
 export const CustomPhoneField = function CustomPhoneField<T>(
   props: WidgetProps<T, any, FormContext<T>>

@@ -197,15 +197,15 @@ export interface JsonSchema {
   properties?: Record<string, JsonSchema>;
   refine?: { callback: (_value: any) => boolean; params?: object };
   type:
-    | 'string'
-    | 'boolean'
-    | 'object'
-    | 'integer'
-    | 'number'
-    | 'array'
-    | 'toggle'
-    | 'select'
-    | 'phone';
+  | 'string'
+  | 'boolean'
+  | 'object'
+  | 'integer'
+  | 'number'
+  | 'array'
+  | 'toggle'
+  | 'select'
+  | 'phone';
 }
 // group
 export interface SchemaType {
@@ -254,9 +254,9 @@ export function createFieldConfigWithResource({
     constantKey: name,
   });
   if (extend) {
-    return mergeFieldConfigs(fieldConfig[name], extend);
+    return mergeFieldConfigs(fieldConfig[name]!, extend);
   }
-  return fieldConfig[name];
+  return fieldConfig[name]!;
 }
 
 export function createFieldTypeFieldConfig({
@@ -284,12 +284,12 @@ export function createReadonlyFieldConfig(elements: string[]): FieldConfigType {
 
 type FilteredObject<T> = {
   [K in keyof T]: T[K] extends object
-    ? T[K] extends Array<any>
-      ? T[K] // Keep arrays as they are
-      : FilteredObject<T[K]>
-    : T[K] extends undefined
-      ? never
-      : T[K];
+  ? T[K] extends Array<any>
+  ? T[K] // Keep arrays as they are
+  : FilteredObject<T[K]>
+  : T[K] extends undefined
+  ? never
+  : T[K];
 };
 
 function filterUndefinedAndEmpty<T>(obj: T): FilteredObject<T> {
@@ -377,11 +377,11 @@ export function fieldConfigFromSchema({
   // object
   if (object && object.type === 'object' && object.properties) {
     for (const property of Object.keys(object.properties)) {
-      Object.assign(fieldConfig[name], {
+      Object.assign(fieldConfig[name]!, {
         displayName: resources[constantKey],
         ...fieldConfigFromSchema({
           name: property,
-          object: object.properties[property],
+          object: object.properties[property]!,
           resources,
           constantKey: `${constantKey}.${property}`,
         }),
@@ -396,11 +396,11 @@ export function fieldConfigFromSchema({
     object.items.properties
   ) {
     for (const property of Object.keys(object.items.properties)) {
-      Object.assign(fieldConfig[name], {
+      Object.assign(fieldConfig[name]!, {
         displayName: resources[constantKey],
         ...fieldConfigFromSchema({
           name: property,
-          object: object.items.properties[property],
+          object: object.items.properties[property]!,
           resources,
           constantKey: `${constantKey}.${property}`,
         }),
@@ -425,7 +425,7 @@ export function fieldConfigFromSchema({
       });
     }
 
-    Object.assign(fieldConfig[name], fieldConfigItem);
+    Object.assign(fieldConfig[name]!, fieldConfigItem);
   }
   return fieldConfig;
 }
