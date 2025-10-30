@@ -1,10 +1,10 @@
-import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/ui/components/form';
-import { Input } from '@repo/ayasofyazilim-ui/ui/components/input';
+import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/components/form';
+import { Input } from '@repo/ayasofyazilim-ui/components/input';
 import AutoFormLabel from '../common/label';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 export default function AutoFormInput({
   label,

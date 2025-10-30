@@ -1,7 +1,7 @@
 'use client';
 
 import DocViewer, { DocRenderer } from 'react-doc-viewer';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import CustomImageRenderer from './renderers/image';
 import CustomPDFRenderer from './renderers/pdf';
 

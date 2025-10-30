@@ -1,19 +1,19 @@
 import * as z from 'zod';
 import { useEffect, useState } from 'react';
-import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/ui/components/form';
+import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/components/form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@repo/ayasofyazilim-ui/ui/components/select';
+} from '@repo/ayasofyazilim-ui/components/select';
 import AutoFormLabel from '../common/label';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
 import { getBaseSchema } from '../utils';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 export default function AutoFormEnum({
   label,

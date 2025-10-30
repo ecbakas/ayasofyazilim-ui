@@ -1,5 +1,5 @@
 import { ErrorListProps } from '@rjsf/utils';
-import { Alert, AlertTitle, AlertDescription } from '@repo/ayasofyazilim-ui/ui/components/alert';
+import { Alert, AlertTitle, AlertDescription } from '@repo/ayasofyazilim-ui/components/alert';
 
 export function ErrorListTemplate(props: ErrorListProps) {
   const { errors } = props;

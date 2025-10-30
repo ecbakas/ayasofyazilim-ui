@@ -1,7 +1,7 @@
 import { WidgetProps } from '@rjsf/utils';
-import { MultiSelect, MultiSelectProps } from '@repo/ayasofyazilim-ui/ui/custom/multi-select';
-import { Label } from '@repo/ayasofyazilim-ui/ui/components/label';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { MultiSelect, MultiSelectProps } from '@repo/ayasofyazilim-ui/custom/multi-select';
+import { Label } from '@repo/ayasofyazilim-ui/components/label';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { fieldOptionsByDependency } from '../utils/dependency';
 
 type CustomMultiSelectProps = Omit<MultiSelectProps, 'options' | 'onChange'> & {

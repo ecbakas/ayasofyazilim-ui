@@ -19,8 +19,8 @@ import { Camera, Pause, Play, RefreshCw, Square, Video } from 'lucide-react';
 import * as React from 'react';
 import { useCallback, useEffect, useRef, useState, useTransition } from 'react';
 import WebcamCore from 'react-webcam';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 
 // Types
 export interface VideoDimensions {

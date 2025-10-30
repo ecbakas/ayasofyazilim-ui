@@ -1,7 +1,7 @@
 import { ChevronsUpDown } from 'lucide-react';
 import { CheckIcon } from 'lucide-react';
 import { Dispatch, SetStateAction, useState } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Command,
   CommandEmpty,
@@ -9,20 +9,20 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@repo/ayasofyazilim-ui/ui/components/command';
-import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/ui/components/form';
+} from '@repo/ayasofyazilim-ui/components/command';
+import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/components/form';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/popover';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { createItemName } from '..';
 import AutoFormLabel from '../common/label';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
-import { useMediaQuery } from '@repo/ayasofyazilim-ui/ui/hooks/use-media-query';
-import { Drawer, DrawerContent, DrawerTrigger } from '@repo/ayasofyazilim-ui/ui/components/drawer';
+import { useMediaQuery } from '@repo/ayasofyazilim-ui/hooks/use-media-query';
+import { Drawer, DrawerContent, DrawerTrigger } from '@repo/ayasofyazilim-ui/components/drawer';
 /**
  * CustomCombobox Component
  *

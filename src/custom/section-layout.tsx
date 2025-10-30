@@ -3,9 +3,9 @@
 import React, { JSX, useEffect, useRef, useState } from 'react';
 // @ts-ignore
 import Link from 'next/link';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { ScrollBar, ScrollArea } from '@repo/ayasofyazilim-ui/ui/components/scroll-area';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { ScrollBar, ScrollArea } from '@repo/ayasofyazilim-ui/components/scroll-area';
 
 export interface ISection {
   id: string;

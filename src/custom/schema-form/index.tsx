@@ -15,10 +15,10 @@ import {
 } from 'react';
 
 import { cloneDeep, get, set } from 'lodash';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { ScrollBar } from '@repo/ayasofyazilim-ui/ui/components/scroll-area';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { ScrollArea } from '@repo/ayasofyazilim-ui/ui/components/scroll-area';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { ScrollBar } from '@repo/ayasofyazilim-ui/components/scroll-area';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { ScrollArea } from '@repo/ayasofyazilim-ui/components/scroll-area';
 import { StringArrayItem } from './custom/string-array';
 import { FieldErrorTemplate } from './fields';
 import {

@@ -8,17 +8,17 @@ import Dropzone, {
   type DropzoneProps,
   type FileRejection,
 } from 'react-dropzone';
-import { Avatar, AvatarFallback, AvatarImage } from '@repo/ayasofyazilim-ui/ui/components/avatar';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@repo/ayasofyazilim-ui/components/avatar';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/collapsible';
-import { Progress } from '@repo/ayasofyazilim-ui/ui/components/progress';
-import { ScrollArea } from '@repo/ayasofyazilim-ui/ui/components/scroll-area';
-import { toast } from '@repo/ayasofyazilim-ui/ui/components/sonner';
-import { cn, formatBytes } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/collapsible';
+import { Progress } from '@repo/ayasofyazilim-ui/components/progress';
+import { ScrollArea } from '@repo/ayasofyazilim-ui/components/scroll-area';
+import { toast } from '@repo/ayasofyazilim-ui/components/sonner';
+import { cn, formatBytes } from '@repo/ayasofyazilim-ui/lib/utils';
 import { useControllableState } from '../hooks/use-controllable-state';
 
 export type FileWithPath = DefaultFileWithPath;

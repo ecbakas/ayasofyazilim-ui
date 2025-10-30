@@ -2,10 +2,10 @@
 
 import { FieldProps } from '@rjsf/utils';
 import { useMemo } from 'react';
-import TanstackTable from '@repo/ayasofyazilim-ui/ui/custom/tanstack-table';
-import { TanstackTablePropsType } from '@repo/ayasofyazilim-ui/ui/custom/tanstack-table/types';
+import TanstackTable from '@repo/ayasofyazilim-ui/custom/tanstack-table';
+import { TanstackTablePropsType } from '@repo/ayasofyazilim-ui/custom/tanstack-table/types';
 import { ErrorSchemaTemplate } from '../fields';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { fieldOptionsByDependency } from '../utils/dependency';
 import { FieldLabel } from './label';
 

@@ -5,7 +5,7 @@
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
-      "@repo/ayasofyazilim-ui/ui/*": ["./src/*"]
+      "@repo/ayasofyazilim-ui/*": ["./src/*"]
     }
   },
   "include": ["."],

@@ -5,9 +5,9 @@ import { DefaultValues, useForm } from 'react-hook-form';
 import { z } from 'zod';
 
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { Form } from '@repo/ayasofyazilim-ui/ui/components/form';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { Form } from '@repo/ayasofyazilim-ui/components/form';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 import AutoFormObject from './fields/object';
 import { Dependency, FieldConfig } from './types';

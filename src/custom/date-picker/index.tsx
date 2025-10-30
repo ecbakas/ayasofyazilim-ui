@@ -11,8 +11,8 @@ import {
   Label,
   // Popover,
 } from 'react-aria-components';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Separator } from '@repo/ayasofyazilim-ui/ui/components/separator';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Separator } from '@repo/ayasofyazilim-ui/components/separator';
 import { Calendar, RangeCalendar } from './calendar-rac';
 import { DateInput, TimeField } from './datefield-rac';
 import { DateRange } from './types';
@@ -21,7 +21,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
+} from '@repo/ayasofyazilim-ui/components/popover';
 
 // const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone; DO NOT DELETE
 const offset = new Date().getTimezoneOffset() * 60 * 1000;

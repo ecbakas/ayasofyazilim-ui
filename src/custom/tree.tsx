@@ -6,7 +6,7 @@ import { ChevronDownIcon } from "lucide-react"
 import { Slot } from "radix-ui"
 export * from "@headless-tree/core";
 export * from "@headless-tree/react";
-import { cn } from "@repo/ayasofyazilim-ui/ui/lib/utils"
+import { cn } from "@repo/ayasofyazilim-ui/lib/utils"
 
 interface TreeContextValue<T = any> {
   indent: number

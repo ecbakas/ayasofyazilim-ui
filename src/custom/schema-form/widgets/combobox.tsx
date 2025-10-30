@@ -2,7 +2,7 @@ import { ChevronsUpDown } from 'lucide-react';
 import { WidgetProps } from '@rjsf/utils';
 import { CheckIcon } from 'lucide-react';
 import { useState } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Command,
   CommandEmpty,
@@ -10,15 +10,15 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@repo/ayasofyazilim-ui/ui/components/command';
-import { Drawer, DrawerContent, DrawerTrigger } from '@repo/ayasofyazilim-ui/ui/components/drawer';
+} from '@repo/ayasofyazilim-ui/components/command';
+import { Drawer, DrawerContent, DrawerTrigger } from '@repo/ayasofyazilim-ui/components/drawer';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
-import { useMediaQuery } from '@repo/ayasofyazilim-ui/ui/hooks/use-media-query';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/popover';
+import { useMediaQuery } from '@repo/ayasofyazilim-ui/hooks/use-media-query';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { fieldOptionsByDependency } from '../utils/dependency';
 
 export const Combobox = (props: WidgetProps) => {

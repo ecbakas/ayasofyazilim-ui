@@ -100,7 +100,9 @@
     "./aria/*": "./src/aria/*.tsx",
     "./custom/*": [
       "./src/custom/*.tsx",
-      "./src/custom/*/index.tsx"
+      "./src/custom/*/index.tsx",
+      "./src/custom/*.ts",
+      "./src/custom/*/index.ts"
     ],
     "./hooks/*": "./src/hooks/*.ts"
   }

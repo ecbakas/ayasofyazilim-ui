@@ -11,10 +11,10 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@repo/ayasofyazilim-ui/ui/components",
-    "utils": "@repo/ayasofyazilim-ui/ui/lib/utils",
-    "hooks": "@repo/ayasofyazilim-ui/ui/hooks",
-    "lib": "@repo/ayasofyazilim-ui/ui/lib",
-    "ui": "@repo/ayasofyazilim-ui/ui/components"
+    "components": "@repo/ayasofyazilim-ui/components",
+    "utils": "@repo/ayasofyazilim-ui/lib/utils",
+    "hooks": "@repo/ayasofyazilim-ui/hooks",
+    "lib": "@repo/ayasofyazilim-ui/lib",
+    "ui": "@repo/ayasofyazilim-ui/components"
   }
 }

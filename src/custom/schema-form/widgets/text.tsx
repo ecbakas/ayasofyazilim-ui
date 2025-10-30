@@ -1,7 +1,7 @@
-import { Input } from '@repo/ayasofyazilim-ui/ui/components/input';
+import { Input } from '@repo/ayasofyazilim-ui/components/input';
 import { fieldOptionsByDependency } from '../utils/dependency';
 import { WidgetProps } from '../types';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export const CustomTextInput = (props: WidgetProps) => {
   const { uiSchema, className, id, disabled, onChange, value } = props;

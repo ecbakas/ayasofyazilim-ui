@@ -1,7 +1,7 @@
 import { WidgetProps } from '@rjsf/utils';
-import { Textarea } from '@repo/ayasofyazilim-ui/ui/components/textarea';
+import { Textarea } from '@repo/ayasofyazilim-ui/components/textarea';
 import { fieldOptionsByDependency } from '../utils/dependency';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export const CustomTextareaInput = (props: WidgetProps) => {
   const { className, id, uiSchema, disabled, onChange, value } = props;

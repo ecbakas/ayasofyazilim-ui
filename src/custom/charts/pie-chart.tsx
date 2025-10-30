@@ -7,9 +7,9 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from '@repo/ayasofyazilim-ui/ui/components/chart';
+} from '@repo/ayasofyazilim-ui/components/chart';
 import { CardClassNames, ChartCard } from './chart-card';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export type PieChartData = Record<
   string,

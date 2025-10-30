@@ -1,7 +1,7 @@
 import { WidgetProps } from '@rjsf/utils';
-import { PasswordInput } from '@repo/ayasofyazilim-ui/ui/custom/password-input';
+import { PasswordInput } from '@repo/ayasofyazilim-ui/custom/password-input';
 import { fieldOptionsByDependency } from '../utils/dependency';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export const PasswordInputWidget = (props: WidgetProps) => {
   const {

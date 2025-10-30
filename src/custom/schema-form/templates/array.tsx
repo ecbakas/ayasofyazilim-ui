@@ -14,15 +14,15 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/accordion';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/accordion';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/dropdown-menu';
+} from '@repo/ayasofyazilim-ui/components/dropdown-menu';
 import { fieldOptionsByDependency } from '../utils/dependency';
 
 export const AccordionArrayFieldTemplate = (props: ArrayFieldTemplateProps) => {

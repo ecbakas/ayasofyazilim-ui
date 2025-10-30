@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import { ActionButtonsProps } from './types';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 
 export const ActionButtons = memo<ActionButtonsProps>(
   ({

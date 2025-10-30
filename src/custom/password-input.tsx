@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { Input, InputProps } from '@repo/ayasofyazilim-ui/ui/components/input';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { Input, InputProps } from '@repo/ayasofyazilim-ui/components/input';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { EyeIcon, EyeOffIcon, KeyIcon } from 'lucide-react';
 import {
   forwardRef,

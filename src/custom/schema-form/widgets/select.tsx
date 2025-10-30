@@ -5,9 +5,9 @@ import {
   SelectValue,
   SelectContent,
   SelectItem,
-} from '@repo/ayasofyazilim-ui/ui/components/select';
+} from '@repo/ayasofyazilim-ui/components/select';
 import { fieldOptionsByDependency } from '../utils/dependency';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { beautifyLabel } from '../utils';
 
 export const CustomSelect = (props: WidgetProps) => {

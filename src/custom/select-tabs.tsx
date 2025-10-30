@@ -2,8 +2,8 @@
 
 import { Circle, CircleCheckBig } from 'lucide-react';
 import React, { createContext, JSX, useContext, useMemo, useState } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 const variants = {
   default:

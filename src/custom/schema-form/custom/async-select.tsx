@@ -1,7 +1,7 @@
 import { WidgetProps } from '@rjsf/utils';
 import AsyncSelectCore, {
   AsyncSelectType,
-} from '@repo/ayasofyazilim-ui/ui/custom/async-select';
+} from '@repo/ayasofyazilim-ui/custom/async-select';
 import { fieldOptionsByDependency } from '../utils/dependency';
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;

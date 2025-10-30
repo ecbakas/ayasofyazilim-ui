@@ -2,7 +2,7 @@
 
 import { ColumnDef } from '@tanstack/react-table';
 import { useEffect, useState } from 'react';
-import { Input } from '@repo/ayasofyazilim-ui/ui/components/input';
+import { Input } from '@repo/ayasofyazilim-ui/components/input';
 import {
   Select,
   SelectContent,
@@ -10,16 +10,16 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@repo/ayasofyazilim-ui/ui/components/select';
-import { Switch } from '@repo/ayasofyazilim-ui/ui/components/switch';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/select';
+import { Switch } from '@repo/ayasofyazilim-ui/components/switch';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { createCell, tanstackTableCreateTitleWithLanguageData } from '.';
 import { TanstackTableColumnHeader } from '../fields';
 import {
   TanstackTableCreateColumnsByRowId,
   TanstacktableEditableColumnsByRowId,
 } from '../types';
-import { DatePicker } from '@repo/ayasofyazilim-ui/ui/custom/date-picker';
+import { DatePicker } from '@repo/ayasofyazilim-ui/custom/date-picker';
 
 export function tanstackTableEditableColumnsByRowData<T>(
   params: TanstacktableEditableColumnsByRowId<T> &
