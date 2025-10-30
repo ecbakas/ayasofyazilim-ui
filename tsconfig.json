@@ -1,16 +1,13 @@
 {
+  "extends": "@workspace/typescript-config/react-library.json",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "baseUrl": "./",
-    "lib": ["ES2021"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["@/*", "./src/*"]
+      "@repo/ayasofyazilim-ui/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
 }
