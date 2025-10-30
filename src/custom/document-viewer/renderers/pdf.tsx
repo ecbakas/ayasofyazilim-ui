@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { DocRenderer, DocRendererProps } from 'react-doc-viewer';
 import { Document, Page, pdfjs, Thumbnail } from 'react-pdf';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import { Controllers } from '../controllers';

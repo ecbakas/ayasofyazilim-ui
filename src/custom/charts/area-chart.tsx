@@ -16,8 +16,8 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from '@repo/ayasofyazilim-ui/ui/components/chart';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/chart';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { CardClassNames, ChartCard } from './chart-card';
 
 export const description = 'An area chart with a legend';

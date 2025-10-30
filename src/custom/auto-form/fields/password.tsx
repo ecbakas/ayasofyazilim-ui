@@ -1,10 +1,10 @@
-import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/ui/components/form';
+import { FormControl, FormItem, FormMessage } from '@repo/ayasofyazilim-ui/components/form';
 import AutoFormLabel from '../common/label';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
-import { PasswordInput } from '@repo/ayasofyazilim-ui/ui/custom/password-input';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
+import { PasswordInput } from '@repo/ayasofyazilim-ui/custom/password-input';
 
 export default function AutoFormPasword({
   label,

@@ -5,25 +5,25 @@ import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 import { PanelLeftIcon } from "lucide-react"
 
-import { useIsMobile } from "@repo/ayasofyazilim-ui/ui/hooks/use-mobile"
-import { cn } from "@repo/ayasofyazilim-ui/ui/lib/utils"
-import { Button } from "@repo/ayasofyazilim-ui/ui/components/button"
-import { Input } from "@repo/ayasofyazilim-ui/ui/components/input"
-import { Separator } from "@repo/ayasofyazilim-ui/ui/components/separator"
+import { useIsMobile } from "@repo/ayasofyazilim-ui/hooks/use-mobile"
+import { cn } from "@repo/ayasofyazilim-ui/lib/utils"
+import { Button } from "@repo/ayasofyazilim-ui/components/button"
+import { Input } from "@repo/ayasofyazilim-ui/components/input"
+import { Separator } from "@repo/ayasofyazilim-ui/components/separator"
 import {
   Sheet,
   SheetContent,
   SheetDescription,
   SheetHeader,
   SheetTitle,
-} from "@repo/ayasofyazilim-ui/ui/components/sheet"
-import { Skeleton } from "@repo/ayasofyazilim-ui/ui/components/skeleton"
+} from "@repo/ayasofyazilim-ui/components/sheet"
+import { Skeleton } from "@repo/ayasofyazilim-ui/components/skeleton"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@repo/ayasofyazilim-ui/ui/components/tooltip"
+} from "@repo/ayasofyazilim-ui/components/tooltip"
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state"
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7

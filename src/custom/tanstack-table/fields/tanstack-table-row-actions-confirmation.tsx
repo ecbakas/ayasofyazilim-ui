@@ -3,7 +3,7 @@
 import { Loader } from 'lucide-react';
 import * as React from 'react';
 
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Dialog,
   DialogClose,
@@ -12,7 +12,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@repo/ayasofyazilim-ui/ui/components/dialog';
+} from '@repo/ayasofyazilim-ui/components/dialog';
 import { TanstackTableRowActionsConfirmationDialog } from '../types';
 
 type TanstackTableConfirmationDialogProps<TData> = {

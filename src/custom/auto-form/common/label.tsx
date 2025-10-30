@@ -1,5 +1,5 @@
-import { FormLabel } from '@repo/ayasofyazilim-ui/ui/components/form';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { FormLabel } from '@repo/ayasofyazilim-ui/components/form';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 const AutoFormLabel = ({
   label,

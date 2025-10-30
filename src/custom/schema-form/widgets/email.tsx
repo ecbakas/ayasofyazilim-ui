@@ -1,9 +1,9 @@
 import { WidgetProps } from '@rjsf/utils';
 import { useState } from 'react';
-import { Input } from '@repo/ayasofyazilim-ui/ui/components/input';
+import { Input } from '@repo/ayasofyazilim-ui/components/input';
 import { fieldOptionsByDependency } from '../utils/dependency';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { EmailInput } from '@repo/ayasofyazilim-ui/ui/custom/email-input';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { EmailInput } from '@repo/ayasofyazilim-ui/custom/email-input';
 
 export const EmailInputWidget = (props: WidgetProps) => {
   const {

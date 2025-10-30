@@ -1,6 +1,6 @@
-import { FormField } from '@repo/ayasofyazilim-ui/ui/components/form';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { FormField } from '@repo/ayasofyazilim-ui/components/form';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import React, { JSX } from 'react';
 import { Control, useForm, useFormContext } from 'react-hook-form';
 import * as z from 'zod';

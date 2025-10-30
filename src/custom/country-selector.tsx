@@ -2,8 +2,8 @@
 
 import * as React from 'react';
 
-import { Badge } from '@repo/ayasofyazilim-ui/ui/components/badge';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Badge } from '@repo/ayasofyazilim-ui/components/badge';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Command,
   CommandEmpty,
@@ -11,14 +11,14 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from '@repo/ayasofyazilim-ui/ui/components/command';
+} from '@repo/ayasofyazilim-ui/components/command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
-import { ScrollArea } from '@repo/ayasofyazilim-ui/ui/components/scroll-area';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/popover';
+import { ScrollArea } from '@repo/ayasofyazilim-ui/components/scroll-area';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export const lang = {
   searchText: 'Find',

@@ -4,8 +4,8 @@ import { cva, VariantProps } from 'class-variance-authority';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { ComponentType, ReactNode, Suspense } from 'react';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 type DeepPartial<T> = T extends object
   ? {

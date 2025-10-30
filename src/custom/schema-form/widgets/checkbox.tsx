@@ -1,5 +1,5 @@
 import { WidgetProps } from '@rjsf/utils';
-import { Checkbox } from '@repo/ayasofyazilim-ui/ui/components/checkbox';
+import { Checkbox } from '@repo/ayasofyazilim-ui/components/checkbox';
 import { FieldLabel } from '../custom/label';
 import { fieldOptionsByDependency } from '../utils/dependency';
 

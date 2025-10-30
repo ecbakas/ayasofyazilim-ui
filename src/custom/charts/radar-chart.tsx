@@ -15,8 +15,8 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from '@repo/ayasofyazilim-ui/ui/components/chart';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/chart';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { ChartCard, CardClassNames } from './chart-card';
 import { ChartData } from '.';
 

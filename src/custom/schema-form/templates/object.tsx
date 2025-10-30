@@ -1,6 +1,6 @@
 import { ObjectFieldTemplateProps } from '@rjsf/utils';
 import { Fragment } from 'react/jsx-runtime';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { fieldOptionsByDependency } from '../utils/dependency';
 import { FieldLabel } from '../custom/label';
 import { TableArrayObjectFieldTemplate } from './table-array';

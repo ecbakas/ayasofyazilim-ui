@@ -3,7 +3,7 @@ import { Tag, TagInput } from 'emblor';
 import { useEffect, useState } from 'react';
 import { fieldOptionsByDependency } from '../utils/dependency';
 import { FieldLabel } from './label';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { beautifyLabel } from '../utils';
 
 export function StringArrayItem(props: WidgetProps) {

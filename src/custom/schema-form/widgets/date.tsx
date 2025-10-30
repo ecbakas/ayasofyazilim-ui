@@ -1,4 +1,4 @@
-import { DatePicker } from '@repo/ayasofyazilim-ui/ui/custom/date-picker';
+import { DatePicker } from '@repo/ayasofyazilim-ui/custom/date-picker';
 import { WidgetProps } from '../types';
 import { fieldOptionsByDependency } from '../utils/dependency';
 

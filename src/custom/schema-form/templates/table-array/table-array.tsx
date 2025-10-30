@@ -1,10 +1,10 @@
 import { ArrayFieldTemplateProps } from '@rjsf/utils';
 import { CircleXIcon, Copy, PlusCircle } from 'lucide-react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import * as Table from '@repo/ayasofyazilim-ui/ui/components/table';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import * as Table from '@repo/ayasofyazilim-ui/components/table';
 import { fieldOptionsByDependency } from '../../utils/dependency';
 import { FieldLabel } from '../../custom/label';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export const TableArrayFieldTemplate = (props: ArrayFieldTemplateProps) => {
   const { items, required, canAdd, title, onAddClick, uiSchema, disabled } =

@@ -8,8 +8,8 @@ import React, {
   useContext,
   useMemo,
 } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export interface ISeparatorProps {
   vertical?: boolean;

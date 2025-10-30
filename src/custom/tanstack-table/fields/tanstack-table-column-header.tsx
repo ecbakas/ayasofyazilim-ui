@@ -6,14 +6,14 @@ import {
 import { Column } from '@tanstack/react-table';
 
 import { HTMLAttributes } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/dropdown-menu';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/dropdown-menu';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 interface TanstackTableColumnHeaderProps<TData, TValue>
   extends HTMLAttributes<HTMLDivElement> {

@@ -2,23 +2,23 @@
 
 import { CheckIcon, ChevronDown, XCircle, XIcon } from 'lucide-react';
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
-import { Badge } from '@repo/ayasofyazilim-ui/ui/components/badge';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Badge } from '@repo/ayasofyazilim-ui/components/badge';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Command as Cmd,
   CommandGroup,
   CommandInput,
   CommandItem,
   CommandList,
-} from '@repo/ayasofyazilim-ui/ui/components/command';
+} from '@repo/ayasofyazilim-ui/components/command';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
-import { Separator } from '@repo/ayasofyazilim-ui/ui/components/separator';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/popover';
+import { Separator } from '@repo/ayasofyazilim-ui/components/separator';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { useDebounce } from '../hooks/use-debounce';
 
 type SearchItem = { id: string; name: string };

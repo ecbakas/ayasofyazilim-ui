@@ -1,12 +1,12 @@
 import { Asterisk, InfoIcon } from 'lucide-react';
-import { Label } from '@repo/ayasofyazilim-ui/ui/components/label';
+import { Label } from '@repo/ayasofyazilim-ui/components/label';
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/tooltip';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/tooltip';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export function FieldLabel({
   id,

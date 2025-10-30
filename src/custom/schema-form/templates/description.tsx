@@ -1,5 +1,5 @@
 import { DescriptionFieldProps } from '@rjsf/utils';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export function DescriptionFieldTemplate(props: DescriptionFieldProps) {
   const { id, description } = props;

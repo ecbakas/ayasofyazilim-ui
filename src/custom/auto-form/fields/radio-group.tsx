@@ -4,14 +4,14 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@repo/ayasofyazilim-ui/ui/components/form';
-import { RadioGroup, RadioGroupItem } from '@repo/ayasofyazilim-ui/ui/components/radio-group';
+} from '@repo/ayasofyazilim-ui/components/form';
+import { RadioGroup, RadioGroupItem } from '@repo/ayasofyazilim-ui/components/radio-group';
 import AutoFormLabel from '../common/label';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
 import { getBaseSchema } from '../utils';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 export default function AutoFormRadioGroup({
   label,

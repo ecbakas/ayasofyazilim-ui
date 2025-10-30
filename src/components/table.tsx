@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { cn } from "@repo/ayasofyazilim-ui/ui/lib/utils"
+import { cn } from "@repo/ayasofyazilim-ui/lib/utils"
 
 function Table({ className, wrapperClassName, ...props }: React.ComponentProps<"table"> & { wrapperClassName?: string }) {
   return (

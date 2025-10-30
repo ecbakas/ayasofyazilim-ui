@@ -2,7 +2,7 @@
 
 import { WidgetProps } from '@rjsf/utils';
 import { PhoneInput as RIP } from 'react-international-phone';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import 'react-international-phone/style.css';
 import { FormContext } from '../types';
 import { useMemo } from 'react';

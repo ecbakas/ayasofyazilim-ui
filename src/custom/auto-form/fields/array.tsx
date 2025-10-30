@@ -3,9 +3,9 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/accordion';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/accordion';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import { useFieldArray, useForm } from 'react-hook-form';
 import * as z from 'zod';

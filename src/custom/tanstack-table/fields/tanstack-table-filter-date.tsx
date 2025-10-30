@@ -2,16 +2,16 @@ import { CirclePlusIcon } from 'lucide-react';
 import { Column } from '@tanstack/react-table';
 
 import { useEffect, useState } from 'react';
-import { Button } from '@repo/ayasofyazilim-ui/ui/components/button';
+import { Button } from '@repo/ayasofyazilim-ui/components/button';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/popover';
-import { Separator } from '@repo/ayasofyazilim-ui/ui/components/separator';
+} from '@repo/ayasofyazilim-ui/components/popover';
+import { Separator } from '@repo/ayasofyazilim-ui/components/separator';
 import { TanstackTableDateFilterType } from '../types';
-import { DatePicker, DateRangePicker } from '@repo/ayasofyazilim-ui/ui/custom/date-picker';
-import { DateRange } from '@repo/ayasofyazilim-ui/ui/custom/date-picker/types';
+import { DatePicker, DateRangePicker } from '@repo/ayasofyazilim-ui/custom/date-picker';
+import { DateRange } from '@repo/ayasofyazilim-ui/custom/date-picker/types';
 
 interface TanstackTableDateFilterProps<TData, TValue> {
   accessorKey: string;

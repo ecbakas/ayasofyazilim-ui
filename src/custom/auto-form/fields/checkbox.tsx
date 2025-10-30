@@ -1,10 +1,10 @@
-import { Checkbox } from '@repo/ayasofyazilim-ui/ui/components/checkbox';
-import { FormControl, FormItem } from '@repo/ayasofyazilim-ui/ui/components/form';
+import { Checkbox } from '@repo/ayasofyazilim-ui/components/checkbox';
+import { FormControl, FormItem } from '@repo/ayasofyazilim-ui/components/form';
 import AutoFormTooltip from '../common/tooltip';
 import { AutoFormInputComponentProps } from '../types';
 import AutoFormLabel from '../common/label';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 export default function AutoFormCheckbox({
   label,

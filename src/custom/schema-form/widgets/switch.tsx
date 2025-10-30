@@ -1,5 +1,5 @@
 import { WidgetProps } from '@rjsf/utils';
-import { Switch } from '@repo/ayasofyazilim-ui/ui/components/switch';
+import { Switch } from '@repo/ayasofyazilim-ui/components/switch';
 import { FieldLabel } from '../custom/label';
 import { fieldOptionsByDependency } from '../utils/dependency';
 

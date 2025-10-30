@@ -1,5 +1,5 @@
 import { ObjectFieldTemplateProps } from '@rjsf/utils';
-import { TableCell } from '@repo/ayasofyazilim-ui/ui/components/table';
+import { TableCell } from '@repo/ayasofyazilim-ui/components/table';
 
 export const TableArrayObjectFieldTemplate = (
   props: ObjectFieldTemplateProps

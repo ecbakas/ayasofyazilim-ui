@@ -7,9 +7,9 @@ import {
 } from '@tanstack/react-table';
 import { ComponentType, JSX } from 'react';
 import { z } from 'zod';
-import { FieldConfig } from '@repo/ayasofyazilim-ui/ui/custom/auto-form';
-import { ZodObjectOrWrapped } from '@repo/ayasofyazilim-ui/ui/custom/auto-form/utils';
-import { SchemaFormProps } from '@repo/ayasofyazilim-ui/ui/custom/schema-form/types';
+import { FieldConfig } from '@repo/ayasofyazilim-ui/custom/auto-form';
+import { ZodObjectOrWrapped } from '@repo/ayasofyazilim-ui/custom/auto-form/utils';
+import { SchemaFormProps } from '@repo/ayasofyazilim-ui/custom/schema-form/types';
 
 export type NonEditableTanstackTableProps<TData> = {
   rowCount: number;

@@ -1,5 +1,5 @@
 import { FieldTemplateProps } from '@rjsf/utils';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import { FieldLabel } from '../custom/label';
 import { fieldOptionsByDependency } from '../utils/dependency';
 

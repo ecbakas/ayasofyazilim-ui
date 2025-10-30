@@ -10,9 +10,9 @@ import {
   DialogTrigger,
   DialogDescription,
   DialogClose,
-} from '@repo/ayasofyazilim-ui/ui/components/dialog';
-import { Button, ButtonProps } from '@repo/ayasofyazilim-ui/ui/components/button';
-import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
+} from '@repo/ayasofyazilim-ui/components/dialog';
+import { Button, ButtonProps } from '@repo/ayasofyazilim-ui/components/button';
+import { Skeleton } from '@repo/ayasofyazilim-ui/components/skeleton';
 
 export type ConfirmDialogProps = {
   closeProps?: ButtonProps;

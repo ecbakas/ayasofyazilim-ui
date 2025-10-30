@@ -6,7 +6,7 @@ import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from '@repo/ayasofyazilim-ui/ui/components/tooltip';
+} from '@repo/ayasofyazilim-ui/components/tooltip';
 
 export type Localization = { locale: string; timeZone: string; lang: string };
 

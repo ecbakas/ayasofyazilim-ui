@@ -6,12 +6,12 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from '@repo/ayasofyazilim-ui/ui/components/dialog';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/dialog';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 import AutoForm, {
   AutoFormSubmit,
   ZodObjectOrWrapped,
-} from '@repo/ayasofyazilim-ui/ui/custom/auto-form';
+} from '@repo/ayasofyazilim-ui/custom/auto-form';
 import { TanstackTableActionsAutoformDialog } from '../types';
 
 type TanstackTableAutoformDialogProps = {

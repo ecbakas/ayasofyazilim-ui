@@ -6,8 +6,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@repo/ayasofyazilim-ui/ui/components/card';
-import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
+} from '@repo/ayasofyazilim-ui/components/card';
+import { cn } from '@repo/ayasofyazilim-ui/lib/utils';
 
 export type CardClassNames = {
   container?: string;
