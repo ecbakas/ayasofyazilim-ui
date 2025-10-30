@@ -19,7 +19,7 @@ import {
 import { Separator } from '@repo/ayasofyazilim-ui/ui/components/separator';
 import { Skeleton } from '@repo/ayasofyazilim-ui/ui/components/skeleton';
 import { cn } from '@repo/ayasofyazilim-ui/ui/lib/utils';
-import { useDebounce } from '../hooks/use-debounce.js';
+import { useDebounce } from '../hooks/use-debounce';
 
 type SearchItem = { id: string; name: string };
 

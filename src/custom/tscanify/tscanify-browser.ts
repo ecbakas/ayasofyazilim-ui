@@ -14,7 +14,7 @@ function distance(p1: Point, p2: Point): number {
 }
 
 export class TScanifyBrowser {
-  constructor() {}
+  constructor() { }
 
   /**
    * Loads OpenCV module
@@ -58,7 +58,7 @@ export class TScanifyBrowser {
         .then((loadedCv) => {
           callback(loadedCv);
         })
-        .catch((err) => {});
+        .catch((err) => { });
     }, 8000); // 8 seconds timeout
   }
 
@@ -254,8 +254,8 @@ export class TScanifyBrowser {
 
         for (let i = 0; i < 4; i++) {
           points.push({
-            x: approx.data32S[i * 2],
-            y: approx.data32S[i * 2 + 1],
+            x: approx.data32S[i * 2] as number,
+            y: approx.data32S[i * 2 + 1] as number,
           });
         }
 
@@ -264,13 +264,13 @@ export class TScanifyBrowser {
 
         // Top points (sorted by y)
         const topPoints = points.slice(0, 2).sort((a, b) => a.x - b.x);
-        const topLeftCorner = topPoints[0];
-        const topRightCorner = topPoints[1];
+        const topLeftCorner = topPoints[0]!;
+        const topRightCorner = topPoints[1]!;
 
         // Bottom points (sorted by y)
         const bottomPoints = points.slice(2).sort((a, b) => a.x - b.x);
-        const bottomLeftCorner = bottomPoints[0];
-        const bottomRightCorner = bottomPoints[1];
+        const bottomLeftCorner = bottomPoints[0]!;
+        const bottomRightCorner = bottomPoints[1]!;
 
         corners = {
           topLeftCorner,

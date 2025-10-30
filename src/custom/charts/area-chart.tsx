@@ -116,10 +116,10 @@ export function AreaChart({
             <Area
               key={key}
               dataKey={key}
-              type={config[key].type || 'monotoneX'}
-              fill={config[key].color || `var(--color-${key})`}
+              type={config[key]?.type || 'monotoneX'}
+              fill={config[key]?.color || `var(--color-${key})`}
               fillOpacity={0.4}
-              stroke={config[key].color || `var(--color-${key})`}
+              stroke={config[key]?.color || `var(--color-${key})`}
               stackId="a"
             />
           ))}
